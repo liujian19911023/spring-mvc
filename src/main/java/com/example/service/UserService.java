@@ -15,4 +15,7 @@ public class UserService {
     public User getUserById(String id){
         return userDao.getUserById(id);
     }
+    public void updateUser(User user){
+        userDao.updateUser(user);
+    }
 }
